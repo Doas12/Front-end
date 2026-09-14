@@ -1,0 +1,57 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+h2 {
+    color:rgba(18, 97, 7, 0.863);
+    font-size:4rem; /* 4rem = 40px */;
+}
+
+h3 {
+    color:rgba(11, 6, 75, 0.925)
+}
+
+
+.description {
+    color:rgb(202, 127, 14);
+    font-weight: bold;
+}
+
+.datos-de-lugar {
+    background-color:rgba(216, 181, 128, 0.747);
+}
+
+.datos-de-lugar h2{
+    color:rgba(126, 39, 126, 0.795)
+}
+
+.box {
+    height: 100px; /*alto*/
+    width: 100px; /*äncho*/
+}
+.test1 {
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 2rem 0; /*arriba, abajo, izquierda y derecha */
+    border-radius: 1rem;
+}
+
+.test2 {
+    background-color: rgba(0, 255, 0, 0.5);
+    margin: 2rem;
+    border-style: dotted;
+
+}
+
+.border {
+    border: solid;
+    border-radius: 1rem;
+}
